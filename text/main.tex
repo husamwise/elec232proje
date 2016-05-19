@@ -29,6 +29,7 @@ Elektronik devreler istenen işaretlerin yanında gürültü olarak adlandırıl
 Şekil 1'de görülen ideal türev alıcı devre yüksek frekanslı bir gürültüye maruz kaldığında çıkışında asıl işaretimizin türevi yerine, gürültünü katlarca yükseltilmiş halini görürüz.
 
 Bu durumu engellemek için girişe bir direnç ve R2 direncine paralel bir kondansatör eklersek kazancı düşürür ve gürültülerin yükseltilmesini engelleriz.
+
 \section{Benzetimler}
 Şekil 2'de benzetimi yapılan uygulanabilir türev alıcı op-amp devresi görülmektedir. Devre fh 1 KHz olacak  şekilde tasarlanmıştır. fc ise 100 hz dir.  Şekil 3 ise bu devrenin 1 Khz deki giriş ve çıkış işaretleridir. Şekilde 4'de de devrenin frekans cevabı görülmektedir.
 
@@ -53,7 +54,32 @@ Bu durumu engellemek için girişe bir direnç ve R2 direncine paralel bir konda
 	\caption{Devrenin frekans fevabı}
 \end{figure}
 
+\newpage
 \section{Kullanım Alanları}
+Bu devre temel olarak bir aktif yüksek geçiren filtredir. bu sebeple çoğunlukla yüksek geçiren filtrelerin ihtiyaç olduğu sistemlerde kullanılır. Aşağıda kullanım alanları verilmiştir.
 
+\begin{itemize}  
+\item Yüksek ses seviyesine sahip hoparlörlerde düşük seviye gürültüyü azaltmak için.
+\item Ses yükseltiçilerde yüksek frekansları yükseltmek için. 
+\item Ekolayzırlarda kullanılır.
+\item Dalga şekillendirici devrelerde, yüksek frekansları tespit etmek için kullanılır.
+\item Dijital bilgisayarlardan önce sık kullanılan analog bilgisayarlarda kullanılırdı.
+\item Kontrol sistemlerinde kullanılan PID devrelerinde kullanılır.
+\item FM modülatörlerde oran değişim detektörü olarak kullanılır. 
+\end{itemize}
+
+\section{Avantajları}
+\begin{itemize}  
+\item Pasif türev alıcı devre ve genel türev alıcı op-amp'a göre daha kararlı çalışır.
+\item Çıkıştaki gürültü daha azdır.
+\end{itemize}
+
+\section{Dezavantajları}
+\begin{itemize}  
+	\item Pasif türev alıcı ekstra bir beslemeye ihtiyaç duymaz iken, op-amp'lı devreye besleme gereklidir.
+\end{itemize}
+\vspace*{\fill} Bu belgenin kaynak dosyalarına ve benzetimlere şu bağlantıdan ulaşabilirsiniz:
+
+https://github.com/husamwise/elec232proje
 
 \end{document}

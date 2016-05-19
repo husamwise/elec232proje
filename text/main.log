@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.22)  20 MAY 2016 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.22)  20 MAY 2016 02:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -549,30 +549,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 <Draft3.png, id=2, 1760.5775pt x 1244.65pt>
 File: Draft3.png Graphic file (type png)
  <use Draft3.png>
-Package pdftex.def Info: Draft3.png used on input line 37.
+Package pdftex.def Info: Draft3.png used on input line 38.
 (pdftex.def)             Requested size: 418.25555pt x 295.68341pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 <Draft1.png, id=3, 1760.5775pt x 1244.65pt>
 File: Draft1.png Graphic file (type png)
  <use Draft1.png>
-Package pdftex.def Info: Draft1.png used on input line 44.
+Package pdftex.def Info: Draft1.png used on input line 45.
 (pdftex.def)             Requested size: 418.25555pt x 295.68341pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
 <Draft2.png, id=4, 1760.5775pt x 1244.65pt>
 File: Draft2.png Graphic file (type png)
  <use Draft2.png>
-Package pdftex.def Info: Draft2.png used on input line 51.
+Package pdftex.def Info: Draft2.png used on input line 52.
 (pdftex.def)             Requested size: 418.25555pt x 295.68341pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
@@ -580,24 +580,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Draft4.png>]
-[3 <./Draft3.png>] [4 <./Draft1.png>] [5 <./Draft2.png>] (./main.aux) ) 
+[3 <./Draft3.png>] [4 <./Draft1.png>] [5 <./Draft2.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+ [6] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4067 strings out of 493029
- 60336 string characters out of 6136234
+ 4090 strings out of 493029
+ 60720 string characters out of 6136234
  185796 words of memory out of 5000000
- 7561 multiletter control sequences out of 15000+600000
- 9484 words of font info for 24 fonts, out of 8000000 for 9000
+ 7581 multiletter control sequences out of 15000+600000
+ 9741 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,6n,46p,435b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/sh
-are/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type
-1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-rm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on main.pdf (5 pages, 307287 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
+Output written on main.pdf (6 pages, 318335 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
